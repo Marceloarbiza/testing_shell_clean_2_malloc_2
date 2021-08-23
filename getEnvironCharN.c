@@ -19,7 +19,7 @@ char **getEnviron()
 	return(envT);
 }
 
-char *compEnv(char *c)
+char *compEnv()
 {
 	int len = 0;
 	char *pa;

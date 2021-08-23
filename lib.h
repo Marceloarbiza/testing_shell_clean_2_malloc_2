@@ -13,7 +13,7 @@ char **strD2Path(char *c);
 char *getPath();
 char *str_concat(char *s1, char *s2);
 char **getEnviron();
-char *compEnv(char * c);
+char *compEnv();
 char **concPath(char **p, char *s);
 char *string_nconcat(char *s1, char *s2);
 int executen(char **d, char **a);
