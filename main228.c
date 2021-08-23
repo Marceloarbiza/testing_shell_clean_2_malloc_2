@@ -29,17 +29,10 @@ int main(void)
 			buf[chara - 1] = 0;
 		
 		doub = strD2(buf);
-		
 		simp = compEnv("PATH");
-
-
-
 		simpD = strD2Path(simp);
-
 		slash = str_concat("/", doub[0]);
-		
 		concPath(simpD, slash);
-
 		executen(simpD, doub);
 		
 	}
