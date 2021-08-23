@@ -4,7 +4,8 @@ int main(void)
 {
 	
 	char *buf;
-	size_t bufsize = 1024, chara;
+	size_t bufsize = 1024;
+	int chara;
 	char **doub;
 	char *simp;
 	char **simpD;
@@ -21,9 +22,9 @@ int main(void)
 		
 		chara = getline(&buf, &bufsize, stdin);
 		
-	/*	if (chara == -1)
+		if (chara == -1)
 			return (-1);
-	*/	
+		
 		if((buf[chara - 1]) == '\n')
 			buf[chara - 1] = 0;
 		
