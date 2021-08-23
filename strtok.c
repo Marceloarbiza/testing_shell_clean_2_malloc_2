@@ -4,7 +4,7 @@ int qStrtok(char *c)
 	char *copy;
 
 	char *tok;
-	int i = 0, j = 0, k = 0;
+	int i = 0, j = 0;
 
 	for (; c[j]; j++)
 		;

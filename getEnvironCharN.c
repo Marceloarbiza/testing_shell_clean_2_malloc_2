@@ -21,7 +21,7 @@ char **getEnviron()
 
 char *compEnv(char *c)
 {
-	int i = 0, flag = 0, len = 0;
+	int len = 0;
 	char *pa;
 	char **p = getEnviron();
 

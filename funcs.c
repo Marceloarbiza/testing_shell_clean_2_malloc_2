@@ -60,3 +60,14 @@ int _strcmp(char *s1, char *s2)
 	}
 	return (0);
 }
+/*
+int main(void)
+{
+	char  c[] = "chauuuuu";
+	char *test = _strcpy(c, "hola");
+
+	printf("test: %s\n", test);
+
+	return (0);
+}
+*/

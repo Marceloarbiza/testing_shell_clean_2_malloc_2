@@ -5,7 +5,7 @@ char **strD2(char *c)
 	char **strD;
 	char *copy;
 	char *tok;
-	int i = 0, j = 0, k = 0, q = 0, len = 0;
+	int j = 0, k = 0, q = 0, len = 0;
 
 	for (; c[j]; j++)
 		;
@@ -41,11 +41,9 @@ char **strD2(char *c)
 
 				tok = strtok(NULL, " ");
 				k++;
-				 //free(strD[k]);
 			}
 
 			strD[k] = '\0';
-			//free(strD);
 		}
 	}
 	free(copy);
